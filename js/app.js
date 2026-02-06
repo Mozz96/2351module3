@@ -5,7 +5,7 @@ function yenToUSD(num1){
 
 }
 
-const result = yenToUSD(140000)
+const result = yenToUSD(140000);
 
 
 function letsJam() {
