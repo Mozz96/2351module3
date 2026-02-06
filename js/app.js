@@ -18,13 +18,18 @@ function letsJam() {
 
 const tank = letsJam()
 
+tank;
+
 const xbox = {
-  type: "Series X",
-  consoleShape: "Fridge-shaped",
+  type: "Xbox Series X",
+  consoleShape: "fridge-shaped",
   releaseYear: 2020,
   consoleColor: "black",
+  fullSpecs: function(){
+    console.log("The " + this.type + " is a " + this.consoleColor + ", " + this.consoleShape + " console that released in " + this.releaseYear) 
+  }
 };
 
-console.log("The Xbox" + " " + xbox.type + " " + "released in" + " " + xbox.releaseYear)
+xbox.fullSpecs();
 
 

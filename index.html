@@ -12,13 +12,27 @@
     <body>
         <h1>2351 Module 3 Assignment</h1>
 
+        <button id="myBtn">Time is?</button>
+
+        <p id="demo"></p>
+
         <p>The number in the console is a conversion function, converting from Japanese Yen to USD (approximately at least)! This example is with 140000 yen.</p>
         
         <p>Like Cowboy Bebop? Check the console in the middle section for a function-based reference!</p>
         
         <p>At the bottom of the console log is an example of an object property, talking about a piece of Xbox trivia!</p>
 
-        <script src="./js/app.js"></script>
+        <script src="./js/app.js">
+
+
+
+                const btn = document.getElementById("myBtn");
+
+                
+                btn.addEventListener("click", function () {
+                    document.getElementById("demo").innerHTML = Date();
+                });
+        </script>
 
   
     
